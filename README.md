@@ -1,18 +1,38 @@
-# Simple Python Port Scanner
+### Python Network Scanning Tool
 
-This is a simple Python script for port scanning. It allows you to scan for open ports on a target device specified by either an IP address or a web domain name.
+This is a simple Python tool for scanning all the open ports of a specific IP address. It is useful for network administrators and security professionals to identify open ports on their networks.
 
-## Table of Contents
-- [Usage](#usage)
-- [Prerequisites](#prerequisites)
-- [How it Works](#how-it-works)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
+# Usage:
 
-## Usage
+To use the tool, simply run it with the IP address of the device you want to scan. For example, to scan the IP address 192.168.1.1, you would run the following command:
+- ```bash
+  python scanner.py 192.168.1.1
 
-You can use this port scanner by providing a target IP address or a web domain name as a command-line argument. The script will then scan a range of ports (1 to 5999) on the target and report which ports are open.
-```bash
-     python port_scanner.py -web <web_domain_name
+You can also specify the hostname of the device instead of the IP address. For example, to scan the hostname example.com, you would run the following command:
 
+- ```bash
+  python scanner.py example.com
+
+The tool will scan all the ports from 1 to 6000 and print the open ports to the console.
+
+Example output:
+
+port 22: OPEN
+port 80: OPEN
+port 443: OPEN
+processes finished
+
+
+# Installation:
+
+To install the tool, simply clone the GitHub repository and run the following command:
+- ```bash
+  git clone https://github.com/huho-0/port-scan
+  cd port-scan
+  python3 setup.py install
+
+This will install the tool in your Python environment.
+
+Contributing:
+
+If you have any suggestions or bug reports, please feel free to create an issue on the GitHub repository.
