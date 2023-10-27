@@ -1,8 +1,8 @@
-### Python Network Scanning Tool
+# Python Network Scanning Tool
 
 This is a simple Python tool for scanning all the open ports of a specific IP address. It is useful for network administrators and security professionals to identify open ports on their networks.
 
-# Usage:
+## Usage:
 
 To use the tool, simply run it with the IP address of the device you want to scan. For example, to scan the IP address 192.168.1.1, you would run the following command:
 - ```bash
@@ -23,7 +23,7 @@ port 443: OPEN
 processes finished
 
 
-# Installation:
+## Installation:
 
 To install the tool, simply clone the GitHub repository and run the following command:
 - ```bash
