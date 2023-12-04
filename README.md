@@ -28,7 +28,7 @@ processes finished
 
 To install the tool, simply clone the GitHub repository and run the following command:
 - ```bash
-  git clone https://github.com/huho-0/port-scan
+  git clone https://github.com/0smic/port-scan
   cd port-scan
   python3 setup.py install
 
