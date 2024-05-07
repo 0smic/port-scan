@@ -30,7 +30,7 @@ To install the tool, simply clone the GitHub repository and run the following co
 - ```bash
   git clone https://github.com/0smic/port-scan
   cd port-scan
-  python3 setup.py install
+  python3 setup.py -ip <ipaddress>
 
 This will install the tool in your Python environment.
 
